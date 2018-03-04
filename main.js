@@ -25,4 +25,6 @@ function update() {
 function render() {
   // 全体をクリア
   ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillRect(10, 10, 100, 100);
 }
